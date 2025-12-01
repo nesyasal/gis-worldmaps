@@ -1,0 +1,14 @@
+{
+  "name": "gis-worldmaps",
+  "version": "1.0.0",
+  "description": "GIS Simple Project with Vercel and MongoDB",
+  "main": "api/coordinates.js",
+  "scripts": {
+    "start": "node api/coordinates.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^9.0.0",
+    "serverless-http": "^3.2.0"
+  }
+}
